@@ -69,14 +69,14 @@ const delayedColorChange = (color, delay) => {
 
 
 delayedColorChange('#06d6a0', 500000)
-    .then(() => delayedColorChange('orange', 500000))
-    .then(() => delayedColorChange('yellow', 500000))
-    .then(() => delayedColorChange('green', 500000))
-    .then(() => delayedColorChange('blue', 500000))
-    .then(() => delayedColorChange('indigo', 500000))
-    .then(() => delayedColorChange('violet', 500000))
-     .then(() => delayedColorChange('verdigris', 500000))
-.then(() => delayedColorChange('#8BA6A9', 500000))
-.then(() => delayedColorChange('#3C6BEC', 500000))
+    .then(() => delayedColorChange('orange', 50000))
+    .then(() => delayedColorChange('yellow', 50000))
+    .then(() => delayedColorChange('green', 50000))
+    .then(() => delayedColorChange('blue', 50000))
+    .then(() => delayedColorChange('indigo', 50000))
+    .then(() => delayedColorChange('violet', 50000))
+     .then(() => delayedColorChange('verdigris', 50000))
+.then(() => delayedColorChange('#8BA6A9', 50000))
+.then(() => delayedColorChange('#3C6BEC', 50000))
 
 
