@@ -68,7 +68,7 @@ const delayedColorChange = (color, delay) => {
 }
 
 
-delayedColorChange('#06d6a0', 500000)
+delayedColorChange('#06d6a0', 50000)
     .then(() => delayedColorChange('orange', 50000))
     .then(() => delayedColorChange('yellow', 50000))
     .then(() => delayedColorChange('green', 50000))
