@@ -68,11 +68,11 @@ const delayedColorChange = (color, delay) => {
 }
 
 
-delayedColorChange('#06d6a0', 50000)
-    .then(() => delayedColorChange('orange', 50000))
-    .then(() => delayedColorChange('yellow', 50000))
-    .then(() => delayedColorChange('green', 50000))
-    .then(() => delayedColorChange('blue', 50000))
+delayedColorChange('#06d6a0', 5000)
+    .then(() => delayedColorChange('orange', 5000))
+    .then(() => delayedColorChange('yellow', 5000))
+    .then(() => delayedColorChange('green', 5000))
+    .then(() => delayedColorChange('blue', 5000))
     .then(() => delayedColorChange('indigo', 50000))
     .then(() => delayedColorChange('violet', 50000))
      .then(() => delayedColorChange('verdigris', 50000))
